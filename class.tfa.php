@@ -1,7 +1,7 @@
 <?php
 
 require_once("../../common.php");
-require_once("GoogleAuthenticator.php");
+require_once("lib/GoogleAuthenticator.php");
 
 define('LIMIT', 300); //5 Minuten
 define('CONFIG', 'tfa.php');
