@@ -1,0 +1,10 @@
+[{ "author" : "Andr3as",
+	"version": "0.1.0",
+	"name" : "TwoFactor",
+	"url" : "https://github.com/Andr3as/Codiad-TwoFactor",
+	"config": [{
+		"file": "dialog.php",
+		"icon": "icon-key",
+		"title": "TwoFactor"
+	}]
+}]
