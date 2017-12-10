@@ -92,7 +92,10 @@ class TFA {
 	}
 	
 	public function IsTFAEnabled() {
-		return $_SESSION['codiad_tfa'];
+		if (isset($_SESSION['codiad_tfa'])) {
+            return $_SESSION['codiad_tfa'];
+		}
+		return false;
 	}
 	
 	public function GenerateSecret() {

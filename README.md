@@ -1,8 +1,8 @@
-#TwoFactor
+# TwoFactor
 
 Use Two Factor Authentication for Codiad.
 
-##Installation
+## Installation
 
 - Download the zip file and unzip it to your plugin folder.
 - Define alternative Authentication in `config.php`, f.e.:
@@ -10,8 +10,8 @@ Use Two Factor Authentication for Codiad.
 	define("AUTH_PATH", BASE_PATH . "/plugins/Codiad-TwoFactor-master/authenticator.php");
 ```
 
-##Requirements
+## Requirements
 - 2FA application like [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 
-##Credits
+## Credits
 - [GoogleAuthenticator PHP Class from PHPGangsta](https://github.com/PHPGangsta/GoogleAuthenticator)
